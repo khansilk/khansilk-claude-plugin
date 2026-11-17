@@ -1,7 +1,7 @@
 {
   "name": "khansilk",
   "displayName": "KhanSilk",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Helps Claude work with KhanSilk, the budget-capped AI swarm app: install the free Windows desktop app, connect it to Claude, then run, watch and steer swarms and open the KhanSilk Studio from the chat.",
   "author": {
     "name": "Jellyball LLC",
@@ -9,6 +9,7 @@
   },
   "homepage": "https://khansilk.com",
   "repository": "https://github.com/khansilk/khansilk-claude-plugin",
+  "license": "LicenseRef-Proprietary",
   "keywords": [
     "khansilk",
     "ai swarm",
