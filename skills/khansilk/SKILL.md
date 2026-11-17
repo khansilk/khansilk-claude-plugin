@@ -6,12 +6,13 @@ description: Use when the user mentions KhanSilk, an AI swarm, a KhanSilk job or
 # Working with KhanSilk
 
 KhanSilk runs budget-capped swarms of AI agents (Emperor, Generals, Captains, Soldiers) that build software and games.
-This plugin connects Claude to the KhanSilk desktop app on the user's Windows PC through the `khansilk` MCP server.
+Its tools for Claude come from the KhanSilk desktop app on the user's Windows PC (the `khansilk` MCP server it installs).
 
-## First, check that KhanSilk is installed
+## First, check that KhanSilk is connected
 
-If the only KhanSilk tools you have are `khansilk_install_status` and `khansilk_download_installer`, the desktop app
-is not installed yet: follow the **install-khansilk** skill and stop here.
+If KhanSilk's tools (khansilk_session_start, khansilk_open_studio, list_jobs and others) aren't available in this
+conversation, the desktop app isn't installed or isn't connected to Claude yet: follow the **install-khansilk** skill
+and stop here.
 
 ## Start every KhanSilk task the same way
 

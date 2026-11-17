@@ -1,8 +1,8 @@
 {
   "name": "khansilk",
   "displayName": "KhanSilk",
-  "version": "0.1.0",
-  "description": "Run, watch and steer KhanSilk AI swarms from Claude, and open the KhanSilk Studio inside Claude. Needs the free KhanSilk desktop app for Windows; if it isn't installed, Claude can download it for you (with your OK) or walk you through installing it.",
+  "version": "0.1.1",
+  "description": "Helps Claude work with KhanSilk, the budget-capped AI swarm app: install the free Windows desktop app, connect it to Claude, then run, watch and steer swarms and open the KhanSilk Studio from the chat.",
   "author": {
     "name": "Jellyball LLC",
     "url": "https://khansilk.com"
@@ -21,15 +21,5 @@
   "documentationUrl": "https://khansilk.com",
   "supportUrl": "https://khansilk.com/contact",
   "privacyPolicyUrl": "https://khansilk.com/privacy",
-  "termsOfServiceUrl": "https://khansilk.com/terms",
-  "mcpServers": {
-    "khansilk": {
-      "command": "cmd.exe",
-      "args": [
-        "/d",
-        "/c",
-        "${CLAUDE_PLUGIN_ROOT}/scripts/khansilk-mcp.cmd"
-      ]
-    }
-  }
+  "termsOfServiceUrl": "https://khansilk.com/terms"
 }

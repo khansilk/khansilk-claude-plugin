@@ -1,33 +1,30 @@
 # KhanSilk for Claude
 
-Run, watch and steer [KhanSilk](https://khansilk.com) AI swarms from Claude, and open the KhanSilk Studio right
-inside the conversation.
+Helps Claude work with [KhanSilk](https://khansilk.com), the app that runs budget-capped swarms of AI agents (an
+Emperor, Generals, Captains and Soldiers) to plan, build, test and fix software and games while a ledger keeps every
+cent under your cap.
 
 ## Install
 
 Find **KhanSilk** in Claude's plugin directory (https://claude.ai/directory) and add it. Then ask Claude for KhanSilk,
-for example "open the KhanSilk studio".
+for example "set up KhanSilk" or "open the KhanSilk studio".
+
+## What it does
+
+This plugin contains two skills, which are instructions for Claude. It runs nothing on your computer by itself.
+
+| Skill | What Claude does with it |
+|---|---|
+| `install-khansilk` | Walks you through installing the free KhanSilk desktop app for Windows from khansilk.com and connecting it to Claude Code or the Claude desktop app. Claude only downloads the installer for you if you say yes, and you always click through the normal Windows installer. |
+| `khansilk` | Once KhanSilk is connected: starts a session, opens the KhanSilk Studio in the chat, watches and steers your jobs, and stays within the permissions and budget you set. Owner-only actions (the kill switch, granting permissions, raising budgets) stay with you in the app. |
 
 ## What you need
 
 - Windows 10 or 11
-- The free KhanSilk desktop app. If it isn't installed, just ask Claude for KhanSilk: it will offer to download the
-  official installer from khansilk.com for you (only after you say yes), or tell you how to install it.
+- The free KhanSilk desktop app: https://khansilk.com/download
 
-## What's inside
-
-| Part | What it does |
-|---|---|
-| `mcpServers` in `.claude-plugin/plugin.json` + `scripts/khansilk-mcp.cmd` | Starts KhanSilk's MCP server from the installed desktop app (`khansilk-backend.exe --mcp`). |
-| `scripts/install-helper.ps1` | Used only when KhanSilk isn't installed: a small helper with two tools, one that explains how to install and one that downloads and opens the official installer after you agree. |
-| `skills/khansilk` | How Claude should work with KhanSilk: start a session, open the Studio, stay within your permissions and budget. |
-| `skills/install-khansilk` | How Claude gets KhanSilk installed with your OK. |
-
-## Privacy and safety
-
-The plugin runs only on your computer. Claude talks to your local KhanSilk app; owner-only actions (the kill switch,
-granting permissions, raising budgets) stay with you in the app. The install helper downloads only from
-khansilk.com and never installs anything by itself: Windows shows you the normal installer window.
+KhanSilk's tools for Claude come from the installed desktop app and run on your own computer. Your projects stay
+on your machine; AI providers you choose are billed by them, and KhanSilk credits are billed by KhanSilk.
 
 Support: support@khansilk.com (https://khansilk.com/contact) · Privacy policy: https://khansilk.com/privacy · Terms: https://khansilk.com/terms
 
