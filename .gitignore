@@ -1,0 +1,5 @@
+# System files the directory refuses in a plugin folder
+.DS_Store
+Thumbs.db
+desktop.ini
+__MACOSX/
