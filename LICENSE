@@ -1,0 +1,18 @@
+KhanSilk for Claude
+Copyright (c) 2026 Jellyball LLC. All rights reserved.
+
+This repository and every file in it (the "Plugin") are proprietary to Jellyball LLC.
+
+You may install the Plugin from Claude's plugin directory or from this repository, and use it unmodified with
+Claude and the KhanSilk desktop app. Except as needed to install and use it, you may not copy, modify, distribute,
+sublicense, sell, or create derivative works of the Plugin or any part of it without written permission from
+Jellyball LLC.
+
+KhanSilk and the KhanSilk logo are trademarks of Jellyball LLC. Use of KhanSilk itself is governed by its Terms of
+Use at https://khansilk.com/terms and its Privacy Policy at https://khansilk.com/privacy.
+
+THE PLUGIN IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE
+WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL JELLYBALL LLC
+BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY ARISING FROM, OUT OF OR IN CONNECTION WITH THE PLUGIN OR ITS USE.
+
+Questions or permission requests: support@khansilk.com
